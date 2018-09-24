@@ -1,5 +1,5 @@
 class Student < ActiveRecord::Base
   def to_s
-    "#{first_name}"
-  end
+    first_name + " " last_name
+    end
 end
